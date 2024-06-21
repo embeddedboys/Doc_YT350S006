@@ -1,23 +1,23 @@
 #  menu items
 [[main]]
-  name = "Blog"
+  name = "论坛（建设中）"
   weight = 5
   url = "blog/"
 
 [[main]]
-  name = "Docs"
+  name = "文档"
   weight = 2
   url = "docs/"
 
-[[main]]
-  name = "Tutorials"
-  weight = 2
-  url = "tutorials/"
+# [[main]]
+#   name = "教程"
+#   weight = 2
+#   url = "tutorials/"
 
-[[main]]
-  name = "Example"
-  weight = 3
-  url = "https://docs.neuralvibes.com"
+# [[main]]
+#   name = "示例"
+#   weight = 3
+#   url = "https://docs.neuralvibes.com"
 
 # [[main]]
 #   name = "Blog"

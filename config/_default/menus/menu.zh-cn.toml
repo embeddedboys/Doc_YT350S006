@@ -1,0 +1,25 @@
+#  menu items
+[[main]]
+  name = "博客"
+  weight = 5
+  url = "blog/"
+
+[[main]]
+  name = "文档"
+  weight = 2
+  url = "docs/"
+
+[[main]]
+  name = "教程"
+  weight = 2
+  url = "tutorials/"
+
+[[main]]
+  name = "示例"
+  weight = 3
+  url = "https://docs.neuralvibes.com"
+
+# [[main]]
+#   name = "Blog"
+#   weight = 4
+#   url = "blog/"

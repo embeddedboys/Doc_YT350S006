@@ -1,5 +1,5 @@
 +++
-title = "Compose Docs"
+title = "Pico"
 weight = 1
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = "Install theme"
+title = "快速上手"
 weight = 2
 description = """
 This page tells you how to get started with the Compose theme.
