@@ -1,6 +1,6 @@
 +++
-title = "Pico DM YT350S006"
-weight = 1
+title = "硬件相关"
+weight = 3
 +++
 
 {{< picture "boards.jpg" "boards.jpg" "Image alt text" >}}

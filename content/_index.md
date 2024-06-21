@@ -13,7 +13,7 @@ title = "Projects"
 
 # **YT350S006** Wiki
 
-本文档将介绍基于YT350S006显示面板的多种模块的使用方法。
+本文档将介绍基于YT350S006显示面板的多种显示拓展板的使用方法。
 
 {{< tip "warning" >}}
 如果您希望帮助维护本文档，请在Github提交 [PR](https://github.com/onweru/compose/pulls)。

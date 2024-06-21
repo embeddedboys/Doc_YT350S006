@@ -6,72 +6,49 @@ This page tells you how to get started with the Compose theme.
 """
 +++
 
-### Prerequisites
+### RaspberryPi Pico
 
-First ensure that you have hugo installed.
+#### 准备事项
 
-You need a [recent **extended** version](https://github.com/gohugoio/hugo/releases) (we recommend version 0.61 or later) of [Hugo](https://gohugo.io/) to do local builds and previews of sites (like this one) that uses this theme.
+- Pico DM YT350S006 显示拓展板
+- RaspberryPi Pico 核心板
+- USB Type-C 数据线
 
-If you install from the release page, make sure to get the `extended` Hugo version, which supports [sass](https://sass-lang.com/documentation/file.SCSS_FOR_SASS_USERS.html); you may need to scroll down the list of releases to see it. 
+#### 固件烧录
 
-For comprehensive Hugo documentation, see [gohugo.io](https://gohugo.io/).
+##### 方法一
 
-## Run your site with compose theme
+{{< picture "blink-an-led-final.gif" "blink-an-led-final.gif" "Image alt text" >}}
 
-You could go with the options right below.
+图解步骤：
 
-### Option 1 (my favorite)
+1. 准备好要烧录的UF2文件
+2. 按住核心板上的BOOTSEL按键，插入USB线缆
+3. 电脑识别到名为RPI-RP2的可移动存储设备
+4. 将要烧录的文件拖放至名为RPI-RP2的可移动存储设备中
+5. 等待传输完成，程序自动执行
 
-This option enables you to load compose theme as a hugo module. First things first, ensure you have `go` binary [installed on your machine](https://golang.org/doc/install).
+##### 方法二
 
-```shell
-$ git clone https://github.com/onweru/compose/
-cd compose/exampleSite/
-hugo server
-```
+需要准备一个debugprobe或CMSIS DAPLink工具。
 
-To pull in theme updates, run `hugo mod get -u ./...` from the theme folder. If unsure, [learn how to update hugo modules](https://gohugo.io/hugo-modules/use-modules/#update-modules)
+#### 串口调试
 
-{{< tip "warning" >}}
-The exampleSite uses the theme as a hugo module by default.
+将准备好的USB Type-C线连接至显示拓展板上的Type-C母座，另一端连接至电脑。
 
-If you choose __Option 2__ or __Option 3__ below, ensure you edit [these lines in the hugo.toml file](https://github.com/onweru/compose/blob/b3e30e0816621223224897edc45eeeabd0d9cd16/exampleSite/hugo.toml#L4-L7) as advised on the comments. Else, you will not be able to pull theme updates.
-{{< /tip >}}
+### Luckfox Pico Max
 
-### Option 2 (recommended)
+#### 准备事项
 
-Generate a new Hugo site and add this theme as a Git submodule inside your themes folder:
+- Pico DM YT350S006 显示拓展板
+- Luckfox Pico Max 核心板
+- 100M/1000M 以太网线缆
+- USB Type-C 数据线
 
-```bash
-hugo new site yourSiteName
-cd yourSiteName
-git init
-git submodule add https://github.com/onweru/compose/ themes/compose
-cp -a themes/compose/exampleSite/* .
-git commit -m "setup compose theme"
-```
+#### 固件烧录
 
-Then run
+参考</br>
+[SD 卡镜像烧录](https://wiki.luckfox.com/zh/Luckfox-Pico/Luckfox-Pico-SD-Card-burn-image)</br>
+[SPI NAND Flash 镜像烧录](https://wiki.luckfox.com/zh/Luckfox-Pico/Luckfox-Pico-Flash-burn-image)
 
-```bash
-hugo server
-```
-
-Hurray!
-
-### Option 3 (Great for testing quickly)
-
-You can run your site directly from the `exampleSite`. To do so, use the following commands:
-
-```bash
-git clone https://github.com/onweru/compose/
-cd compose/exampleSite/
-hugo server --themesDir ../..
-```
-
-{{< tip >}}
-Although, option 3 is great for quick testing, it is somewhat problematic when you want to update your theme. You would need to be careful not to overwrite your changes.
-{{< /tip >}}
-
-Once set, jump over to the [hugo.toml](https://github.com/onweru/compose/blob/afdf1cd76408aeac11547a6abd51bdc5138a295f/exampleSite/hugo.toml#L4-L7) file and start configuring your site.
-
+#### 串口调试

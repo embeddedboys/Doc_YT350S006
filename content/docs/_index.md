@@ -3,7 +3,7 @@ title = "版型介绍"
 weight = 1
 +++
 
-我们使用此显示面板开发了多种不同接口的显示模组
+我们使用此显示面板开发了多种不同接口的显示拓展板
 
 所以文档将针对不同平台分为多个部分:
 
@@ -44,6 +44,6 @@ weight = 1
 {{< /column >}}
 {{< /block >}}
 
-{{< picture "boards.jpg" "boards.jpg" "Image alt text" >}}
+{{< picture "IMG_20240621_064648.jpg" "IMG_20240621_064648.jpg" "Image alt text" >}}
 
 <!-- That content is better than dummy lorem ipsum 2) That content serves a good real-world demo for this theme 3) Publish more structured docs for each theme which are better than long blocky READMEs -->

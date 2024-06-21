@@ -1,9 +1,11 @@
 +++
 Title = "RPi DM YT350S006"
-weight = 10
+weight = 2
 +++
 
-The log of booting process on Raspberry Pi 1B
+{{< picture "IMG_20240621_064850.jpg" "IMG_20240621_064850.jpg" "Image alt text" >}}
+
+Raspberry Pi Model 1B上的启动日志
 ```c
 [    0.000000] Booting Linux on physical CPU 0x0
 [    0.000000] Linux version 6.6.20+rpt-rpi-v6 (debian-kernel@lists.debian.org))
@@ -203,7 +205,3 @@ permitted by applicable law.
 Last login: Mon Jun  3 04:56:36 BST 2024 on ttyAMA0
 pi@raspberrypi:~$
 ```
-
-__Hugo Clarity__ is a technology-minded theme for Hugo based on VMware's open-source [Clarity Design System](https://clarity.design/) featuring rich code support, dark/light mode, mobile support, and much more. See [a live demo at __neonmirrors.net__](https://neonmirrors.net/).
-
-{{< button "./getting-started/" "Get started with Clarity" >}}
