@@ -1,5 +1,5 @@
 +++
-title = "Pico"
+title = "Pico DM YT350S006"
 weight = 1
 +++
 

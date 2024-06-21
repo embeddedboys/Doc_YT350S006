@@ -41,6 +41,7 @@ Or, [generate graphs, charts](docs/compose/graphs-charts-tables/#show-a-pie-doug
 {{< gallery "images/luckfox_pico.jpg,images/boards.jpg,images/rpi-pico.jpg" "Gallery Image 1::gallery image 2::gallery image 3" >}}
 {{< gallery "images/IMG_0028.jpeg,images/IMG_0029.jpeg,images/IMG_20240621_064714.jpg" "Gallery Image 1::gallery image 2::gallery image 3" >}}
 
+![diy](images/IMG_0037.jpeg)
 ![diy](images/IMG_0032.jpeg)
 ![diy](images/IMG_0033.jpeg)
 ![diy](images/IMG_20240621_064648.jpg)
