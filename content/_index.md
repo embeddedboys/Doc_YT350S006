@@ -31,7 +31,7 @@ Or, [generate graphs, charts](docs/compose/graphs-charts-tables/#show-a-pie-doug
 {{< /column >}}
 
 {{< column >}}
-![diy](/images/pico_dm_yt350s006_zoomed.jpg)
+![diy](images/pico_dm_yt350s006_zoomed.jpg)
 {{< /column >}}
 {{< /block >}}
 
@@ -40,6 +40,7 @@ Or, [generate graphs, charts](docs/compose/graphs-charts-tables/#show-a-pie-doug
 
 {{< gallery "images/luckfox_pico.jpg,images/boards.jpg,images/rpi-pico.jpg" "Gallery Image 1::gallery image 2::gallery image 3" >}}
 {{< gallery "images/raspberrypi/IMG_0028.jpeg,images/raspberrypi/IMG_0029.jpeg,images/raspberrypi/IMG_20240621_064714.jpg" "Gallery Image 1::gallery image 2::gallery image 3" >}}
-![diy](/images/raspberrypi/IMG_0032.jpeg)
-![diy](/images/raspberrypi/IMG_0033.jpeg)
-![diy](/images/raspberrypi/IMG_20240621_064648.jpg)
+
+![diy](images/IMG_0032.jpeg)
+![diy](images/IMG_0033.jpeg)
+![diy](images/IMG_20240621_064648.jpg)
