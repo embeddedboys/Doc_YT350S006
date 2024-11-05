@@ -30,7 +30,7 @@ enableCopyright = true
 # search
 [search]
 on = true
-global = false # turn to `true` to enable global search
+global = true # turn to `true` to enable global search
 [search.algolia]
 enable = false # if false search will default to fusejs
 id = "Q40WQQX84U" # Application ID
@@ -39,8 +39,8 @@ key = "da87401a458102ec6bbd6cc5e5cf8d95" # Search-Only API Key
 
 # Site logo
 [logo]
-  lightMode = "images/compose.svg"
-  darkMode = "images/compose-light.svg"
+  lightMode = "images/embeddedboys-icon.png"
+  darkMode = "images/embeddedboys-icon.png"
 
 [source]
   name = "GitHub"
@@ -51,5 +51,5 @@ key = "da87401a458102ec6bbd6cc5e5cf8d95" # Search-Only API Key
 # optional
 # attribution. Feel free to delete this
 [author]
-  name = "embeddedboys"
+  name = "embeddedboys developers"
   url = "https://github.com/embeddedboys"
